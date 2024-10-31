@@ -1,7 +1,7 @@
 # boston_user_repo
 ***********************************************************************************************************************************************************************************
 **An explanation of how I scraped the data**:
-Using python code and using genertaed token I scraped data. Initially faced limit issues which was later overcome by pagination and used pause (sleep(1)) to avoid hitting rate limits.
+Using python code and using generated token I scraped data. Initially faced limit issues which was later overcome by pagination and used pause (sleep(1)) to avoid hitting rate limits.
 ***********************************************************************************************************************************************************************************
 **The most interesting and surprising fact I found after analyzing the data**:
 Length of developer's bio negatively impacts number of followers. Regression slope of followers on bio word count is -3.082 which means on average, for each additional word in developer’s bio, number of followers decreases by about 3.082 followers.
